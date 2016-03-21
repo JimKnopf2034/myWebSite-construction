@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    margin: 0;
+    list-style: none;
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+}
+
+.nav > li{
+    display: inline-block;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 130%;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .nav > li {
+        display: block;
+    }
+    .nav-btn:before{
+        content: 'Menu';
+    }
+    .nav-btn{
+        background-color: #333;
+        font-size: 130%;
+        color: #FFF;
+        cursor: pointer;
+        display: block;
+    }
+}
