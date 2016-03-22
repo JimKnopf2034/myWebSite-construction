@@ -6,7 +6,7 @@ body{
 .navbar{
     margin: 0;
     display: block;
-    width: 200px;
+    width: 20%;
     height: 100%;
     position: absolute;
     left: 0px;
@@ -25,6 +25,11 @@ body{
     text-decoration: none;
     color: #FFF;
     font-size: 130%;
+}
+
+.content {
+    width: 75%;
+    float: right;
 }
 
 @media (max-width: 768px) {
@@ -46,5 +51,9 @@ body{
         color: #FFF;
         cursor: pointer;
         display: block;
+    }
+
+    .content{
+
     }
 }
